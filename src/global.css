@@ -1,0 +1,39 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(218, 218, 218);
+}
+
+main {
+  margin: 0 auto;
+  max-width: 25em;
+}
+
+
+.Candidate{
+  display: flex;
+  justify-content: center;
+}
+
+.pollingBooth{
+  /* background-color: rgb(218, 218, 218); */
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr ;
+  padding-bottom: 5%;
+  
+}
+
+.VotingTopic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 15vh;
+  margin:auto;
+  text-align: center;
+  border: solid rgba(0,0,0,0.8);
+  padding:10px;
+}

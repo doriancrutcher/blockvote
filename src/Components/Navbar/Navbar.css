@@ -1,0 +1,27 @@
+.navBarBox{
+    height: 6vh;
+    border-bottom: solid black;
+    margin-bottom:0;
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding:10px;
+    font-size:120%;
+    background-color: white;
+
+}
+
+.title{
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    margin-left: .5vw;
+}
+
+
+.Account{
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
